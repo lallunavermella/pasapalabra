@@ -259,7 +259,8 @@ window.addEventListener('load', () => {
         viewDescription()
         viewStart();
     }
-
+ 
+    
     let scorePlayer = (points) => {
         score.innerHTML = points
     }
