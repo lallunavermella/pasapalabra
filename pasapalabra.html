@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="fondo" id="fondo"></div>
+    <header class="header">
+      <h1 class="title">PASAPALABRA</h1>
+    </header>
+    <main class="main">
+      <section class="rosco-container" id="rosco">
+        <div class="rosco">
+          <div class="letter normal-letter" id="a" value="a">A</div>
+          <div class="letter normal-letter" id="b" value="b">B</div>
+          <div class="letter normal-letter" id="c" value="c">C</div>
+          <div class="letter normal-letter" id="d" value="d">D</div>
+          <div class="letter normal-letter" id="e" value="e">E</div>
+          <div class="letter normal-letter" id="f" value="f">F</div>
+          <div class="letter normal-letter" id="g" value="g">G</div>
+          <div class="letter normal-letter" id="h" value="h">H</div>
+          <div class="letter normal-letter" id="i" value="i">I</div>
+          <div class="letter normal-letter" id="j" value="j">J</div>
+          <div class="letter normal-letter" id="k" value="k">K</div>
+          <div class="letter normal-letter" id="l" value="l">L</div>
+          <div class="letter normal-letter" id="m" value="m">M</div>
+          <div class="letter normal-letter" id="n" value="n">N</div>
+          <div class="letter normal-letter" id="enye" value="ñ">Ñ</div>
+          <div class="letter normal-letter" id="o" value="o">O</div>
+          <div class="letter normal-letter" id="p" value="p">P</div>
+          <div class="letter normal-letter" id="q" value="q">Q</div>
+          <div class="letter normal-letter" id="r" value="r">R</div>
+          <div class="letter normal-letter" id="s" value="s">S</div>
+          <div class="letter normal-letter" id="t" value="t">T</div>
+          <div class="letter normal-letter" id="u" value="u">U</div>
+          <div class="letter normal-letter" id="v" value="v">V</div>
+          <div class="letter normal-letter" id="w" value="w">W</div>
+          <div class="letter normal-letter" id="x" value="x">X</div>
+          <div class="letter normal-letter" id="y" value="y">Y</div>
+          <div class="letter normal-letter" id="z" value="z">Z</div>
+          <button class="start" id="start" title="hola">Empezar juego</button>
+          <div class="boxquestion" id="boxquestion"></div>
+        </div>
+        <div class="score-container">
+          <div class="time" id="time">0</div>
+          <div class="score" id="score">0</div>
+        </div>
+      </section>
+      <section class="game-panel">
+        <input
+          class="answer"
+          id="answer"
+          autocomplete="off"
+          placeholder="your answer"
+          required
+          minlength="1"
+          maxlength="30"
+        />
+        <div class="buttons">
+          <div class="btn btn-pasapalabra" id="pasapalabra">PASAPALABRA</div>
+          <div class="btn btn-submit" id="submit">OK</div>
+          <div class="btn btn-end" id="end">END GAME</div>
+        </div>
+      </section>
+      <section class="description" id="description">
+        <div id="descriptionText"> ¿Estás preparade para jugar? Las normas son las siguientes: Escribe sin tildes. 
+          Si no sabes la respuesta haz
+        Pasapalabra.
+        </div>
+        <button class="ok-description" id="ok-description">OK</button>
+      </section> 
+    </main>
+    <footer class="footer">by Silvia Martinez &#128025</footer>
+  </body>
+</html>
